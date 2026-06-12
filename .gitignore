@@ -1,1 +1,16 @@
+# VS Code settings
+.vscode/
 
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Optional: Ignore uploaded images/files
+# assets/uploads/*
+# !assets/uploads/.gitkeep
