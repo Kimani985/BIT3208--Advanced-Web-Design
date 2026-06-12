@@ -138,7 +138,10 @@ campus-event-board/
 **Stephen Kimani**
 
 Registration Number: BSCCS/2024/57444
+
 Course: Bachelor of Science in Computer Science
+
 BIT3208 – Advanced Web Design
+
 Mount Kenya University
 
