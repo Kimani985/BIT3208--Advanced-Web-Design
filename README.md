@@ -1,6 +1,6 @@
 # Campus Event Board
 
-Campus Event Board is a PHP and MySQL web application for managing university events, student RSVPs, featured events, image uploads, and attendance tracking.
+Campus Event Board is a web-based Campus Event Management System developed using PHP and MySQL. It enables students to browse university events, RSVP for participation, and track attendance while providing administrators with tools to create, edit, and manage events through a secure dashboard.
 
 ## Features Overview
 
@@ -9,14 +9,14 @@ Campus Event Board is a PHP and MySQL web application for managing university ev
 - Secure login verification with `password_verify()`
 - Role-based student/admin access
 - Admin dashboard with analytics
-- Event create, read, update, and delete operations
+- Full CRUD operations for event management
 - Featured events
 - Event image uploads
-- Student RSVP system
+- Student RSVP and attendance management
 - RSVP cancellation
 - Attendance check-in tracking
 - Search and category filtering
-- Responsive mobile-first user interface
+- Responsive mobile-friendly user interface
 - PDO prepared statements for database queries
 - Output escaping with `htmlspecialchars()`
 
@@ -29,6 +29,19 @@ Campus Event Board is a PHP and MySQL web application for managing university ev
 - CSS3
 - Vanilla JavaScript
 - Apache with XAMPP, LAMP, or similar local server
+
+
+
+## Security Features
+
+- Password hashing using PHP's `password_hash()`
+- Password verification using `password_verify()`
+- PDO prepared statements to prevent SQL injection
+- PHP session-based authentication
+- Role-based access control
+- Output escaping with `htmlspecialchars()`
+- Input validation and sanitization
+
 
 ## XAMPP Setup
 
