@@ -75,7 +75,7 @@ CREATE INDEX idx_events_featured ON events (is_featured);
 CREATE INDEX idx_events_date ON events (event_date);
 CREATE INDEX idx_events_category ON events (category);
 CREATE INDEX idx_rsvps_status ON rsvps (status);
-
+            
 INSERT INTO users (full_name, email, password, role)
 VALUES
     (
